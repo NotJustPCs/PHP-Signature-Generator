@@ -1,3 +1,6 @@
+---
+permalink: /index.php
+---
 Signature Generator
 =======
 
@@ -5,7 +8,7 @@ A super simple script to help everyone that ever had to create an corporate HTML
 
 ## Usage
 
-It's dead simple to use this, just edit **layout.html** to have your signature code and replate the content with **tags**
+It's dead simple to use this, just edit **layout.html** to have your signature code and replicate the content with **tags**
 
 For regular field values:
 
@@ -15,7 +18,7 @@ For conditional fields:
 
     [[IF-MOBILE]][[MOBILE]][[ENDIF-MOBILE]]
 
-For booleans, such as a checkbox, you can use a default value that is displayed (but not editable) if the user wants to:
+For Booleans, such as a checkbox, you can use a default value that is displayed (but not editable) if the user wants to:
 
     [[IF-WEBSITE]]http://www.example.com[[ENDIF-WEBSITE]]
 
