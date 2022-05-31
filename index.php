@@ -125,7 +125,7 @@ else: ?><!DOCTYPE html>
             <!-- Begin page content -->
             <div class="container">
                 <div class="page-header">
-                    <h1>Simple Signature Generator</h1>
+                    <h1>Not Just PCs - Signature Generator</h1>
                 </div>
                 <form role="form" method="post" target="preview" id="form">
                     <div class="form-group">
@@ -133,20 +133,16 @@ else: ?><!DOCTYPE html>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
                     </div>
                     <div class="form-group">
+                        <label for="Phone">Job Title</label>
+                        <input type="phone" class="form-control" id="Title" name="Sender[title]" placeholder="Tech Support Engineer">
+                    </div>
+                    <div class="form-group">
                         <label for="Email">Email</label>
-                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="Enter your email">
+                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="you@notjustpcs.co.uk">
                     </div>
                     <div class="form-group">
-                        <label for="Phone">Telefone</label>
-                        <input type="phone" class="form-control" id="Phone" name="Sender[phone]" placeholder="+XX (XX) XXXX-XXXX">
-                    </div>
-                    <div class="form-group">
-                        <label for="Mobile">Celular</label>
+                        <label for="Mobile">Mobile Phone</label>
                         <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
-                    </div>
-                    <div class="form-group">
-                        <label for="Website">Display website</label>
-                        <input type="checkbox" class="form-control" id="Website" name="Sender[website]">
                     </div>
 
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
