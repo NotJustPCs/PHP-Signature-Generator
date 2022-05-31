@@ -46,60 +46,13 @@ else: ?><!DOCTYPE html>
         <meta name="description" content="">
         <meta name="author" content="Lucas Machado">
 
-        <title>Signature Generator</title>
+        <title>Not Just PCs - Signature Generator</title>
 
         <!-- Bootstrap core CSS -->
-        <link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet">
-
-        <!-- Custom styles for this template -->
-        <style type="text/css">
-            /* Sticky footer styles
-            -------------------------------------------------- */
-
-            html,
-            body {
-                height: 100%;
-                /* The html and body elements cannot have any padding or margin. */
-            }
-
-            /* Wrapper for page content to push down footer */
-            #wrap {
-                min-height: 100%;
-                height: auto !important;
-                height: 100%;
-                /* Negative indent footer by its height */
-                margin: 0 auto -60px;
-                /* Pad bottom by footer height */
-                padding: 0 0 60px;
-            }
-
-            /* Set the fixed height of the footer here */
-            #footer {
-                height: 60px;
-                background-color: #f5f5f5;
-            }
-
-
-            /* Custom page CSS
-            -------------------------------------------------- */
-            /* Not required for template or sticky footer method. */
-
-            #wrap > .container {
-                padding: 60px 15px 0;
-            }
-            .container .credit {
-                margin: 20px 0;
-            }
-
-            #footer > .container {
-                padding-left: 15px;
-                padding-right: 15px;
-            }
-
-            code {
-                font-size: 80%;
-            }
-        </style>
+        <link rel="stylesheet" href="//www.njpcstatus.co.uk/style.css?v=20180503">
+      	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
+      	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+      	<link href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
 
     </head>
 
