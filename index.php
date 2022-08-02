@@ -1,7 +1,7 @@
 <?php
 if (!empty($_REQUEST['Sender'])):
     $sender = $_REQUEST['Sender'];
-    $layout = file_get_contents('./layout.html', FILE_USE_INCLUDE_PATH);
+    $layout = file_get_contents('./' . $_REQUEST['company'] . '.html', FILE_USE_INCLUDE_PATH);
 
     foreach ($sender as $key => $value) {
         $key         = strtoupper($key);
@@ -84,12 +84,13 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Company">Company</label>
                         <select name="company" id="company">
-                            <option value="ETSE">ETSE</option>
-                            <option value="ROH">ROH</option>
-                            <option value="Gas Centre">Gas Centre</option>
-                            <option value="BBQ Shop">BBQ Shop</option>
-                            <option value="Frtyfve">Frtyfve</option>
-                            <option value="Intrumental">Intrumental</option>
+                            <option value="etse">ETSE</option>
+                            <option value="roh">ROH</option>
+                            <option value="gascentre">Gas Centre</option>
+                            <option value="bbqshop">BBQ Shop</option>
+                            <option value="frtyfve">Frtyfve</option>
+                            <option value="intrumental">Intrumental</option>
+							<option value="njpc">Not Just PC</option>
                         </select>
                         </div>
 						<div class="form-group">
