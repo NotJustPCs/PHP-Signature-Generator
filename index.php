@@ -91,7 +91,9 @@ else: ?><!DOCTYPE html>
                             <option value="Frtyfve">Frtyfve</option>
                             <option value="Intrumental">Intrumental</option>
                         </select>
-                        <label for="Name">Name</label>
+                        </div>
+						<div class="form-group">
+						<label for="Name">Name</label>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
                     </div>
                     <div class="form-group">
