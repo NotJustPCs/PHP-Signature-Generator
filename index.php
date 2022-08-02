@@ -49,7 +49,7 @@ else: ?><!DOCTYPE html>
         <title>Not Just PCs - Signature Generator</title>
 
         <!-- Bootstrap core CSS -->
-        <link rel="stylesheet" href="//www.njpcstatus.co.uk/style.css?v=20180503">
+        <link rel="stylesheet" href="//static.notjustpcs.co.uk/style.css?v=20220802">
       	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
       	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
       	<link href="//stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" crossorigin="anonymous">
