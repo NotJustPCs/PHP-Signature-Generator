@@ -82,6 +82,15 @@ else: ?><!DOCTYPE html>
                 </div>
                 <form role="form" method="post" target="preview" id="form">
                     <div class="form-group">
+                        <label for="Company">Company</label>
+                        <select name="company" id="company">
+                            <option value="ETSE">ETSE</option>
+                            <option value="ROH">ROH</option>
+                            <option value="Gas Centre">Gas Centre</option>
+                            <option value="BBQ Shop">BBQ Shop</option>
+                            <option value="Frtyfve">Frtyfve</option>
+                            <option value="Intrumental">Intrumental</option>
+                        </select>
                         <label for="Name">Name</label>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
                     </div>
