@@ -90,7 +90,7 @@ else: ?><!DOCTYPE html>
                             <option value="bbqshop">BBQ Shop</option>
                             <option value="frtyfve">Frtyfve</option>
                             <option value="instrumental">Instrumental</option>
-							<option value="njpc">Not Just PC</option>
+							<option value="njpc">Not Just PCs</option>
 							<option value="agrominerals">Agro Minerals</option>
                         </select>
                         </div>
