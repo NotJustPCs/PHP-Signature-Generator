@@ -92,6 +92,7 @@ else: ?><!DOCTYPE html>
                             <option value="instrumental">Instrumental</option>
 							<option value="njpc">Not Just PCs</option>
 							<option value="agrominerals">Agro Minerals</option>
+							<option value="pangdean">Pangdean</option>
                         </select>
                         </div>
 						<div class="form-group">
