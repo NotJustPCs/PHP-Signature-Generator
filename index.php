@@ -75,7 +75,7 @@ else: ?><!DOCTYPE html>
                 </div>
             </div>
 <?php
-		echo $_GET['company'];
+		$_GET['company'];
 ?>
             <!-- Begin page content -->
             <div class="container">
@@ -83,20 +83,30 @@ else: ?><!DOCTYPE html>
                     <h1>Not Just PCs - Signature Generator</h1>
                 </div>
                 <form role="form" method="post" target="preview" id="form">
+				
+				<?php
+				if is_null ($_GET['company']) { 
+			?>
                     <div class="form-group">
                         <label for="Company">Company</label>
                         <select name="company" id="company">
+							<option value="njpc" default >Not Just PCs</option>
                             <option value="etse">ETSE</option>
                             <option value="roh">ROH</option>
                             <option value="gascentre">Gas Centre</option>
                             <option value="bbqshop">BBQ Shop</option>
                             <option value="frtyfve">Frtyfve</option>
                             <option value="instrumental">Instrumental</option>
-							<option value="njpc">Not Just PCs</option>
 							<option value="agrominerals">Agro Minerals</option>
 							<option value="pangdean">Pangdean</option>
                         </select>
                         </div>
+						
+			<?php
+				}
+			else { $company = $_GET['company'] };
+			?>
+						
 						<div class="form-group">
 						<label for="Name">Name</label>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
