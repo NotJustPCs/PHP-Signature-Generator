@@ -46,8 +46,8 @@ else: ?><!DOCTYPE html>
         <meta name="description" content="">
         <meta name="author" content="Lucas Machado">
 
-        <title>Not Just PCs - Signature Generator</title>
-
+        <title>Not Just PCs - Signature Generator</title> 
+		
         <!-- Bootstrap core CSS -->
         <link rel="stylesheet" href="//static.notjustpcs.co.uk/style.css?v=20220802">
       	<link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Open+Sans" />
@@ -74,6 +74,8 @@ else: ?><!DOCTYPE html>
                     </div>
                 </div>
             </div>
+
+		echo $_GET['company'];
 
             <!-- Begin page content -->
             <div class="container">
