@@ -83,7 +83,7 @@ else: ?><!DOCTYPE html>
                 <form role="form" method="post" target="preview" id="form">
 				
 				<?php
-				if is_null ($_GET['company']) :
+				if (is_null($_GET['company'])) :
 			?>
                     <div class="form-group">
                         <label for="Company">Company</label>
