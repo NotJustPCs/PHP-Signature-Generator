@@ -74,9 +74,7 @@ else: ?><!DOCTYPE html>
                     </div>
                 </div>
             </div>
-<?php
-		$_GET['company'];
-?>
+
             <!-- Begin page content -->
             <div class="container">
                 <div class="page-header">
@@ -104,7 +102,7 @@ else: ?><!DOCTYPE html>
 						
 			<?php
 				}
-			else { $company = $_GET['company'] };
+			else { $company = $_GET['company']; }
 			?>
 						
 						<div class="form-group">
