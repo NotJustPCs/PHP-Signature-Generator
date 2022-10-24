@@ -74,9 +74,9 @@ else: ?><!DOCTYPE html>
                     </div>
                 </div>
             </div>
-
+<?php
 		echo $_GET['company'];
-
+?>
             <!-- Begin page content -->
             <div class="container">
                 <div class="page-header">
