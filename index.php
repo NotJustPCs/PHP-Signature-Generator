@@ -88,15 +88,15 @@ else: ?><!DOCTYPE html>
                     <div class="form-group">
                         <label for="Company">Company</label>
                         <select name="company" id="company">
-							<option value="njpc" default >Not Just PCs</option>
-                            <option value="etse">ETSE</option>
-                            <option value="roh">ROH</option>
-                            <option value="gascentre">Gas Centre</option>
-                            <option value="bbqshop">BBQ Shop</option>
-                            <option value="frtyfve">Frtyfve</option>
-                            <option value="instrumental">Instrumental</option>
-							<option value="agrominerals">Agro Minerals</option>
-							<option value="pangdean">Pangdean</option>
+							<option value="notjustpcs.co.uk" default >Not Just PCs</option>
+                            <option value="etse.uk">ETSE</option>
+                            <option value="riveroakshomes.co.uk">ROH</option>
+                            <option value="thegascentre.co.uk">Gas Centre</option>
+                            <option value="thebbqshop.co.uk">BBQ Shop</option>
+                            <option value="frtyfve.com">Frtyfve</option>
+                            <option value="weareinstrumental.com">Instrumental</option>
+							<option value="agrominerals.earth">Agro Minerals</option>
+							<option value="pangdean.com">Pangdean</option>
                         </select>
                         </div>
 						
