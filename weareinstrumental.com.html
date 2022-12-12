@@ -11,10 +11,10 @@
 	<table width="100%" style="margin:0px;padding:0px;">
 	  <tr style="float:left;padding: 20px 0 20px 14px;">
 	    <td>
-	    	<p style="font-weight:600;margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[NAME]]</p>
-	    	<p style="margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;margin-bottom:6px;">[[TITLE]]</p>
-	    	<a href="mailto:name@weareinstrumental.com" style="color:#636363;text-decoration:none;"><p style="margin:0px 0px 14px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[EMAIL]]</p></a>
-	    	<p style="margin:6px 0px;font-size:.7em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;"><span style="font-weight:600;color:#9ed3cc;margin-right:10px;">mob</span><a href="tel:+447000000000" style="color:#636363;text-decoration:none;">[[MOBILE]]</a></p>
+	    	[[IF-NAME]]<p style="font-weight:600;margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[NAME]]</p>[[ENDIF-NAME]]
+	    	[[IF-TITLE]]<p style="margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;margin-bottom:6px;">[[TITLE]]</p>[[ENDIF-TITLE]]
+	    	[[IF-EMAIL]]<a href="mailto:[[EMAIL]]" style="color:#636363;text-decoration:none;"><p style="margin:0px 0px 14px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[EMAIL]]</p></a>[[ENDIF-EMAIL]]
+	    	[[IF-MOBILE]]<p style="margin:6px 0px;font-size:.7em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;"><span style="font-weight:600;color:#9ed3cc;margin-right:10px;">mob</span><a href="tel:[[MOBILE]]" style="color:#636363;text-decoration:none;">[[MOBILE]]</a></p>[[ENDIF-MOBILE]]
 	    	<p style="margin:6px 0px;font-size:.7em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;"><span style="font-weight:600;color:#9ed3cc;margin-right:20px;">tel</span><a href="tel:+442071830750" style="color:#636363;text-decoration:none;">+44 (0)20 7183 0750</a></p>
 			<p style="margin: 20px 0px;">
 			<a href="#" target="blank">
