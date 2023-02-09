@@ -128,7 +128,17 @@ else: ?><!DOCTYPE html>
                     <input type="hidden" name="download" id="will-download" value="">
                 </form>
             </div>
-
+        
+            <!-- For RiverOaks Homes -->
+<?php
+        if $company = "riveroakshomes.co.uk"
+        ?>            
+        <div class="form-group">
+        <label for="Address">Name</label>
+        <input type="text" class="form-control" id="Address" name="Sender[Address]" placeholder="Enter Address">
+        <?php
+endif
+?>
             <div class="container">
                 <iframe src="about:blank" name="preview" width="100%" height="200"></iframe>
             </div>
