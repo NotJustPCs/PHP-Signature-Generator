@@ -123,9 +123,9 @@ else: ?><!DOCTYPE html>
                         <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
-                    <label for="Mobile">Mobile Phone</label>
+                    <label for="Mobile">Address</label>
                     <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="25 Jubilee Street">
-                    
+                    </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
                     <input type="hidden" name="download" id="will-download" value="">
