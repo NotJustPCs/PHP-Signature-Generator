@@ -119,12 +119,20 @@ else: ?><!DOCTYPE html>
                         <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="you@notjustpcs.co.uk">
                     </div>
                     <div class="form-group">
-                        <label for="Mobile">Mobile Phone</label>
+                        <label for="Mobile">Mobile Number</label>
                         <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
+                    </div>
+                    <div class="form-group">
+                        <label for="Phone">Landline Number</label>
+                        <input type="phone" class="form-control" id="Landline" name="Sender[landline]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
                     <label for="Mobile">Address</label>
                     <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="25 Jubilee Street">
+                    </div>
+                    <div class="form-group">
+                    <label for="social">Address</label>
+                    <input type="social" class="form-control" id="Social Media" name="Sender[social]" placeholder="https://www.instagram.com/notjustpcs">
                     </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
