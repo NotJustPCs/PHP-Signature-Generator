@@ -123,7 +123,7 @@ else: ?><!DOCTYPE html>
                         <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
-                        <label for="Phone">Landline Number</label>
+                        <label for="Landline">Landline Number</label>
                         <input type="phone" class="form-control" id="Landline" name="Sender[landline]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
@@ -131,8 +131,8 @@ else: ?><!DOCTYPE html>
                     <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="25 Jubilee Street">
                     </div>
                     <div class="form-group">
-                    <label for="social">Address</label>
-                    <input type="social" class="form-control" id="Social Media" name="Sender[social]" placeholder="https://www.instagram.com/notjustpcs">
+                    <label for="social">Social Media</label>
+                    <input type="social" class="form-control" id="Social Media" name="Sender[social]" placeholder="www.instagram.com/notjustpcs">
                     </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
