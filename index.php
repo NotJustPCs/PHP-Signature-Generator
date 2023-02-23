@@ -127,12 +127,16 @@ else: ?><!DOCTYPE html>
                         <input type="phone" class="form-control" id="Landline" name="Sender[landline]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
-                    <label for="Mobile">Address</label>
+                    <label for="Address">Address</label>
                     <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="25 Jubilee Street">
                     </div>
                     <div class="form-group">
-                    <label for="social">Social Media</label>
-                    <input type="social" class="form-control" id="Social Media" name="Sender[social]" placeholder="www.instagram.com/notjustpcs">
+                    <label for="instagram">Instagram</label>
+                    <input type="instagram" class="form-control" id="Instagram" name="Sender[instagram]" placeholder="instagram.com/notjustpcs">
+                    </div>
+                    <div class="form-group">
+                    <label for="linkedin">LinkedIn</label>
+                    <input type="linkedin" class="form-control" id="LinkedIn" name="Sender[LinkedIn]" placeholder="uk.linkedin.com/in/fossweb">
                     </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
