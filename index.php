@@ -105,8 +105,10 @@ else: ?><!DOCTYPE html>
 			else : $company = $_GET['company'];
 			endif
 			?>
-						
-						<div class="form-group">
+					<h3>Hint</h3>
+                    <p>You can preview your company signature to see which fields apply to you. If there's already a landline in the preview, then changing the landline number won't have any effect.</p>
+
+                    <div class="form-group">
 						<label for="Name">Name</label>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
                     </div>
@@ -128,15 +130,15 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                     <label for="Address">Address</label>
-                    <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="25 Jubilee Street">
+                    <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="18 Guildford Road, BN1 3LU">
                     </div>
                     <div class="form-group">
                     <label for="instagram">Instagram</label>
-                    <input type="instagram" class="form-control" id="Instagram" name="Sender[instagram]" placeholder="instagram.com/notjustpcs">
+                    <input type="instagram" class="form-control" id="Instagram" name="Sender[instagram]" placeholder="https://instagram.com/notjustpcs">
                     </div>
                     <div class="form-group">
                     <label for="linkedin">LinkedIn</label>
-                    <input type="linkedin" class="form-control" id="LinkedIn" name="Sender[LinkedIn]" placeholder="uk.linkedin.com/in/fossweb">
+                    <input type="linkedin" class="form-control" id="LinkedIn" name="Sender[LinkedIn]" placeholder="https://uk.linkedin.com/company/not-just-pcs">
                     </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
@@ -151,7 +153,7 @@ else: ?><!DOCTYPE html>
 
         <div id="footer">
             <div class="container">
-                <p class="text-muted credit">developed by <a href="http://www.lucasms.net/">Lucas Machado</a>.</p>
+                <p class="text-muted credit">developed by <a href="http://www.lucasms.net/">Lucas Machado</a> - Fettled by <a target="_blank" href="https://notjustpcs.co.uk">Not Just PCs</a>.</p>
             </div>
         </div>
 
