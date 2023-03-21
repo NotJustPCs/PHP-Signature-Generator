@@ -113,8 +113,8 @@ else: ?><!DOCTYPE html>
                         <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
                     </div>
                     <div class="form-group">
-                        <label for="Phone">Job Title</label>
-                        <input type="phone" class="form-control" id="Title" name="Sender[title]" placeholder="Tech Support Engineer">
+                        <label for="Title">Job Title</label>
+                        <input type="text" class="form-control" id="Title" name="Sender[title]" placeholder="Tech Support Engineer">
                     </div>
                     <div class="form-group">
                         <label for="Email">Email</label>
@@ -122,23 +122,27 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                         <label for="Mobile">Mobile Number</label>
-                        <input type="phone" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
+                        <input type="tel" class="form-control" id="Mobile" name="Sender[mobile]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
                         <label for="Landline">Landline Number</label>
-                        <input type="phone" class="form-control" id="Landline" name="Sender[landline]" placeholder="+XX (XX) XXXXX-XXXX">
+                        <input type="tel" class="form-control" id="Landline" name="Sender[landline]" placeholder="+XX (XX) XXXXX-XXXX">
                     </div>
                     <div class="form-group">
-                    <label for="Address">Address</label>
-                    <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="18 Guildford Road, BN1 3LU">
+                        <label for="Address">Address</label>
+                        <input type="address" class="form-control" id="Address" name="Sender[Address]" placeholder="18 Guildford Road, BN1 3LU">
                     </div>
                     <div class="form-group">
-                    <label for="instagram">Instagram</label>
-                    <input type="instagram" class="form-control" id="Instagram" name="Sender[instagram]" placeholder="https://instagram.com/notjustpcs">
+                        <label for="Instagram">Instagram</label>
+                        <input type="url" class="form-control" id="Instagram" name="Sender[instagram]" placeholder="https://instagram.com/notjustpcs">
                     </div>
                     <div class="form-group">
-                    <label for="linkedin">LinkedIn</label>
-                    <input type="linkedin" class="form-control" id="LinkedIn" name="Sender[LinkedIn]" placeholder="https://uk.linkedin.com/company/not-just-pcs">
+                        <label for="LinkedIn">LinkedIn</label>
+                        <input type="url" class="form-control" id="LinkedIn" name="Sender[LinkedIn]" placeholder="https://uk.linkedin.com/company/not-just-pcs">
+                    </div>
+                    <div class="form-group">
+                        <label for="WorkingHours">Working Hours</label>
+                        <input type="text" class="form-control" id="WorkingHours" name="Sender[WorkingHours]" placeholder="My working hours are Mon/Thurs/Fri 9am-5pm">
                     </div>
                     <button id="preview" type="submit" class="btn btn-default">Preview</button>
                     <button id="download" class="btn btn-default">Download</button>
