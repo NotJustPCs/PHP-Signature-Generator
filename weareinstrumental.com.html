@@ -1,25 +1,192 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-	<meta charset="UTF-8">
-	<title>Instrumental Email Signature</title>
-	<meta name="apple-mobile-web-app-capable" content="yes">
-	<meta name = "viewport" content = "user-scalable=no, width=device-width">
-</head>
-<body style="margin:0px;padding:0px;">
-	<table width="100%" style="margin:0px;padding:0px;">
-	  <tr style="float:left;padding: 20px 0 20px 14px;">
-	    <td>
-	    	[[IF-NAME]]<p style="font-weight:600;margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[NAME]]</p>[[ENDIF-NAME]]
-	    	[[IF-TITLE]]<p style="margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;margin-bottom:6px;">[[TITLE]]</p>[[ENDIF-TITLE]]
-	    	[[IF-EMAIL]]<a href="mailto:[[EMAIL]]" style="color:#636363;text-decoration:none;"><p style="margin:0px 0px 14px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">[[EMAIL]]</p></a>[[ENDIF-EMAIL]]
-	    	[[IF-MOBILE]]<p style="margin:6px 0px;font-size:.7em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;"><span style="font-weight:600;color:#9ed3cc;margin-right:10px;">mob</span><a href="tel:[[MOBILE]]" style="color:#636363;text-decoration:none;">[[MOBILE]]</a></p>[[ENDIF-MOBILE]]
-	    	<p style="margin:6px 0px;font-size:.7em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;"><span style="font-weight:600;color:#9ed3cc;margin-right:20px;">tel</span><a href="tel:+442071830750" style="color:#636363;text-decoration:none;">+44 (0)20 7183 0750</a></p>
-			<p style="margin: 20px 0px;"><a href="https://weareinstrumental.com" target="_blank"><img src="https://static.notjustpcs.co.uk/instrumental-logo.png" width="200" alt="Instrumental"></a></p>
-			<p style="font-weight:600;margin:0px 0px 6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">Instrumental.</p>
-	    	<a href="https://www.google.co.uk/maps/place/2+Archer+St,+Soho,+London+W1D/@51.5115466,-0.1340353,17z/data=!3m1!4b1!4m2!3m1!1s0x487604d397437c73:0x12762d67e036b883" style="color:#636363;text-decoration:none;" target="_blank"><p style="margin:6px 0px;font-size:.8em;font-family:Helvetica, Arial, Sans-Serif;color:#636363;">2 Archer Street, London, W1D 7AW.</p></a>
-	    </td>
-	  </tr>
-	</table>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Instrumental Email Signature</title>
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+  </head>
+  <body style="margin: 0px; padding: 0px">
+    <span id="signature-instrumental">
+      <p
+        dir="ltr"
+        style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt"
+      ></p>
+      <div dir="ltr" style="margin-left: 0pt" align="left">
+        <table style="border: none; border-collapse: collapse">
+          <colgroup>
+            <col width="92" />
+            <col width="238" />
+          </colgroup>
+          <tbody>
+            <tr style="height: 72pt">
+              <td
+                style="
+                  border-width: 1pt;
+                  border-style: solid;
+                  border-color: rgb(255, 255, 255);
+                  vertical-align: top;
+                  padding: 5pt;
+                  overflow: hidden;
+                "
+              >
+                <p
+                  dir="ltr"
+                  style="
+                    line-height: 1.656;
+                    margin-top: 0pt;
+                    margin-bottom: 0pt;
+                  "
+                >
+                  <span
+                    style="
+                      font-size: 11pt;
+                      font-family: Arial;
+                      color: rgb(0, 0, 0);
+                      background-color: transparent;
+                      font-variant-numeric: normal;
+                      font-variant-east-asian: normal;
+                      font-variant-alternates: normal;
+                      vertical-align: baseline;
+                      white-space: pre-wrap;
+                    "
+                    ><span
+                      style="
+                        border: none;
+                        display: inline-block;
+                        overflow: hidden;
+                        width: 75px;
+                        height: 75px;
+                      "
+                      ><img
+                        src="https://s.njpc.it/instrumental-logo-2023.png"
+                        width="75"
+                        height="75"
+                        style="margin-left: 0px; margin-top: 0px" /></span
+                  ></span>
+                </p>
+              </td>
+              <td
+                style="
+                  border-width: 1pt;
+                  border-style: solid;
+                  border-color: rgb(255, 255, 255);
+                  vertical-align: top;
+                  padding: 5pt;
+                  overflow: hidden;
+                "
+              >
+                <p
+                  dir="ltr"
+                  style="
+                    line-height: 1.656;
+                    margin-top: 0pt;
+                    margin-bottom: 0pt;
+                  "
+                >
+                  [[IF-NAME]]<span
+                    style="
+                      font-size: 11pt;
+                      font-family: Montserrat, sans-serif;
+                      color: rgb(32, 33, 36);
+                      background-color: transparent;
+                      font-weight: 700;
+                      font-variant-numeric: normal;
+                      font-variant-east-asian: normal;
+                      font-variant-alternates: normal;
+                      vertical-align: baseline;
+                      white-space: pre-wrap;
+                    "
+                    >[[NAME]]</span
+                  >[[ENDIF-NAME]]
+                </p>
+                <p
+                  dir="ltr"
+                  style="
+                    line-height: 1.656;
+                    margin-top: 0pt;
+                    margin-bottom: 0pt;
+                  "
+                >
+                  <span
+                    style="
+                      font-size: 8pt;
+                      font-family: Montserrat, sans-serif;
+                      color: rgb(32, 33, 36);
+                      background-color: transparent;
+                      font-variant-numeric: normal;
+                      font-variant-east-asian: normal;
+                      font-variant-alternates: normal;
+                      vertical-align: baseline;
+                      white-space: pre-wrap;
+                    "
+                    >[[IF-TITLE]] [[TITLE]] &nbsp; | &nbsp; [[ENDIF-TITLE]]
+                    Instrumental</span
+                  >
+                </p>
+                <p
+                  dir="ltr"
+                  style="line-height: 1.38; margin-top: 0pt; margin-bottom: 0pt"
+                >
+                  <br />
+                </p>
+                <p
+                  dir="ltr"
+                  style="
+                    line-height: 1.656;
+                    margin-top: 0pt;
+                    margin-bottom: 0pt;
+                  "
+                >
+                  <a
+                    href="https://www.weareinstrumental.com/"
+                    style="text-decoration-line: none"
+                    ><span
+                      style="
+                        font-size: 7pt;
+                        font-family: Montserrat, sans-serif;
+                        color: rgb(0, 160, 255);
+                        background-color: transparent;
+                        font-variant-numeric: normal;
+                        font-variant-east-asian: normal;
+                        font-variant-alternates: normal;
+                        text-decoration-line: underline;
+                        vertical-align: baseline;
+                        white-space: pre-wrap;
+                      "
+                      >www.weareinstrumental.com</span
+                    ></a
+                  >
+                </p>
+                <p
+                  dir="ltr"
+                  style="
+                    line-height: 1.656;
+                    margin-top: 0pt;
+                    margin-bottom: 0pt;
+                  "
+                >
+                  [[IF-EMAIL]]<span
+                    style="
+                      font-size: 7pt;
+                      font-family: Montserrat, sans-serif;
+                      color: rgb(0, 160, 255);
+                      background-color: transparent;
+                      font-variant-numeric: normal;
+                      font-variant-east-asian: normal;
+                      font-variant-alternates: normal;
+                      text-decoration-line: underline;
+                      vertical-align: baseline;
+                      white-space: pre-wrap;
+                    "
+                    ><a href="mailto:[[EMAIL]]">[[EMAIL]]</a></span
+                  >[[ENDIF-EMAIL]]
+                </p>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </span>
+  </body>
 </html>
