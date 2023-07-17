@@ -110,7 +110,7 @@ else: ?><!DOCTYPE html>
 
                     <div class="form-group">
 						<label for="Name">Name</label>
-                        <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Enter your name">
+                        <input type="text" class="form-control" id="Name" name="Sender[name]" placeholder="Bob Bobberson">
                     </div>
                     <div class="form-group">
                         <label for="Title">Job Title</label>
@@ -118,7 +118,7 @@ else: ?><!DOCTYPE html>
                     </div>
                     <div class="form-group">
                         <label for="Email">Email</label>
-                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="you@notjustpcs.co.uk">
+                        <input type="email" class="form-control" id="Email" name="Sender[email]" placeholder="bob@notjustpcs.co.uk">
                     </div>
                     <div class="form-group">
                         <label for="Mobile">Mobile Number</label>
