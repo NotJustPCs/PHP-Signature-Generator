@@ -1,4 +1,6 @@
 <?php
+error_reporting(0);
+
 if (!empty($_REQUEST['Sender'])):
     $sender = $_REQUEST['Sender'];
     $layout = file_get_contents('./' . $_REQUEST['company'] . '.html', FILE_USE_INCLUDE_PATH);
